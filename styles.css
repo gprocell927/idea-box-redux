@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: #E5F3F2;
+  height: 60vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#idea-text {
+  color: #00A79D;
+  margin-right: -10px;
+}
+ #box-text {
+   color: #6D6E71;
+ }
+
+ #title-input, #body-input {
+   width: 400px;
+   display: block;
+   margin: auto;
+ }
+
+ .save-button {
+   width: 400px;
+   display: block;
+   margin: auto;
+   background-color: #00A79D;
+   color: #FFFFFF;
+   border-style: none;
+ }
+
+ .save-button:hover{
+   background-color: #045E55;
+ }
