@@ -3,10 +3,9 @@ body {
 }
 header {
   background-color: #E5F3F2;
-  height: 60vh;
+  /*height: 60vh;*/
   font-family: 'Roboto Slab', serif;
 }
-
 h1 {
   font-size: 40px;
   margin-top: 20px;
@@ -22,10 +21,18 @@ h1 {
    color: #6D6E71;
  }
 
- #title-input, #body-input {
+ .title-input, .body-input {
    width: 400px;
    display: block;
    margin: auto;
+ }
+
+ .title-input {
+   margin-bottom: 10px;
+ }
+
+ .body-input {
+   margin-bottom: 10px;
  }
 
  .save-button {
@@ -40,3 +47,10 @@ h1 {
  .save-button:hover{
    background-color: #045E55;
  }
+
+#search-bar {
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
